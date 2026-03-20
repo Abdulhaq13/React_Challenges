@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f3f4f6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* container */
+.App {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 320px;
+}
+
+/* rows spacing */
+.App div {
+  margin: 18px 0;
+}
+
+/* buttons */
+button {
+  padding: 6px 14px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* counter input */
+input[type="number"] {
+  width: 100px;
+  padding: 8px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* slider */
+input[type="range"] {
+  width: 180px;
+  accent-color: #2563eb;
+  margin-right: 10px;
+}
+
+/* range value */
+span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* date text */
+p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #444;
+}
